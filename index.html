@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- <link rel="preload" href="fonts/WorkSans-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/WorkSans-Medium.woff2.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/WorkSans-Regular.woff2.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="fonts/PTSans-Regular.woff2.woff2" as="font" type="font/woff2" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="form-wrap">
+		<div class="form-wrap__col form-wrap__col--left">
+			<b class="form-wrap__text">Sign up</b>
+			<!-- /.form-wrap__text -->
+		</div>
+		<!-- /.form-wrap__col .form-wrap__col--left -->
+		<div class="form-wrap__col form-wrap__col--right">
+			<b class="form-wrap__slogan">New user?</b>
+			<!-- /.form-wrap__slogan -->
+			<p class="form-wrap__desc">Use the form below to create your account.</p>
+			<!-- /.form-wrap__desc -->
+			<form action="#" class="form">
+				<p>
+					<label for="user-firstName">First Name</label>
+					<input type="text" id="user-firstName" placeholder="Alice" required>
+				</p>
+				<p>
+					<label for="user-lastName">Last Name</label>
+					<input type="text" id="user-lastName" placeholder="Miller" required>
+				</p>
+				<!-- <p>
+					<label for="user-nationality">Nationality</label>
+					<select id="user-nationality">
+						<option value="American">American</option>
+						<option value="Belarusian">Belarusian</option>
+						<option value="Rusian">Rusian</option>
+					</select>
+				</p> -->
+				<p>
+					<label for="user-email">E-mail</label>
+					<input type="email" id="user-email" placeholder="alice.miller@yahoo.com" required>
+				</p>
+				<!-- <p>
+					<label for="user-borthDate">Date of Birth</label>
+					<select id="user-borthDate">
+						<option value="American">American</option>
+						<option value="Belarusian">Belarusian</option>
+						<option value="Rusian">Rusian</option>
+					</select>
+				</p> -->
+				<p>
+					<label for="user-maleGender">male</label>
+					<input type="radio" name="gender" id="user-maleGender" value="male">
+					<label for="user-femaleGender">female</label>
+					<input type="radio" name="gender" id="user-femaleGender" value="female" checked>
+				</p>
+				<p>
+					<label for="user-password">Password</label>
+					<input type="password" id="user-password" maxlength="15" size="15" name="password" required>
+				</p>
+				<p>
+					<label for="user-confirm-password">Confirm Password</label>
+					<input type="password" id="user-confirm-password" maxlength="15" size="15" name="confirm-password" required>
+				</p>
+				<button type="submit">Complete Signup</button>
+			</form>
+			<div class="form-wrap__link-container">
+				<span class="forrm-wrap__queston">Have an account?</span>
+				<!-- /.forrm-wrap__queston -->
+				<a href="#" class="form-wrap__link">Login</a>
+				<!-- /.form-wrap__link -->
+			</div>
+			<!-- /.form-wrap__link-container -->
+		</div>
+		<!-- /.form-wrap__col .form-wrap__col--right -->
+	</div>
+	<!-- /.form-wrap -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>

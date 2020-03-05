@@ -1,0 +1,15 @@
+.form-wrap {
+	display: flex;
+	justify-content: space-between;
+	width: 665px;
+}
+
+.form-wrap__col.form-wrap__col--left {
+	width: 137px;
+	background-color: #5A61ED;
+}
+
+.form-wrap__col.form-wrap__col--right {
+	width: 528px;
+	background-color: #ffffff;
+}
